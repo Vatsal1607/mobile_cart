@@ -7,7 +7,7 @@ class AddToCart extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Cart is empty currently PENCHO', style: TextStyle(
+        child: Text('Nothing to show', style: TextStyle(
           fontSize: 25,
         ),),
       ),

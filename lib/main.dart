@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mobile_cart/pages/add_to_cart.dart';
 import 'package:mobile_cart/pages/bottom_bar.dart';
 import 'package:mobile_cart/pages/home_page.dart';
+import 'package:mobile_cart/pages/home_single_child_scroll.dart';
+import 'package:mobile_cart/pages/login_register/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Mobile Cart',
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.deepPurple,
       ),
       home: HomePage(),
     );

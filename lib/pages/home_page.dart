@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_cart/pages/account_page.dart';
+import 'package:mobile_cart/pages/account_pages/account_page.dart';
 import 'package:mobile_cart/pages/add_to_cart.dart';
 import 'package:mobile_cart/pages/bottom_bar.dart';
 import 'package:mobile_cart/pages/home_single_child_scroll.dart';

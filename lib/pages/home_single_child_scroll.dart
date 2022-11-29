@@ -79,7 +79,7 @@ class _HomeSingleState extends State<HomeSingle> {
             ),
           ),
           Text(searchChange.toString()),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Row(
             // mainAxisAlignment: MainAxisAlignment.center,
             // crossAxisAlignment: CrossAxisAlignment.end,
@@ -125,27 +125,31 @@ class _HomeSingleState extends State<HomeSingle> {
                   Text(Mobiles[mobileIndex]),
                 ],
               ),
+              // Expanded(
+              //   child: SizedBox(
+              //     height: 500,
+              //     width: double.infinity,
+              //     child: ListView(
+              //       scrollDirection: Axis.horizontal,
+              //       children: List.generate(values1.length, (index) => Image.asset(values1[index]),
+              //       ),),
+              //   ),
+              // ),
             ],
           ),
 
-          // Row(
-          //   children: [
-          //     Expanded(
-          //       child: SizedBox(
-          //         child: ListView.builder(
-          //           // itemCount: 3,
-          //           scrollDirection: Axis.horizontal,
-          //             itemBuilder: (context, index){
-          //               return Row(
-          //                   children: List.generate(values1.length, (index) => Center(child: Image.asset(values1[index]),),),
-          //               );
-          //             }
-          //         ),
-          //       ),
-          //     ),
-          //   ],
+          // Container(
+          //   height: 300,
+          //   child: ListView.builder(
+          //     // itemCount: 3,
+          //       scrollDirection: Axis.horizontal,
+          //       itemBuilder: (context, index){
+          //         return Row(
+          //           children: List.generate(values1.length, (index) => Center(child: Image.asset(values1[index]),),),
+          //         );
+          //       }
+          //   ),
           // )
-
         ],
       ),
     );
